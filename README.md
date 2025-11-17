@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hi, I’m @Matysekxx<br>👀 I’m interested in programming, games, and learning new technologies<br>🌱 I’m currently learning Python, C++, and Java<br>💞️ I’m looking to collaborate on fun or educational projects<br>📫 How to reach me: chaloupkamatej1353@gmail.com<br>😄 Pronouns: he/him<br>⚡ Fun fact: I enjoy creating things that challenge me and help me grow
+👋 Hi, I’m @Matysekxx<br>👀 I’m interested in programming, games, and learning new technologies<br>🌱 I’m currently learning Game and Application Development 🎮📱<br>💞️ I’m looking to collaborate on fun or educational projects<br>📫 How to reach me: chaloupkamatej1353@gmail.com<br>😄 Pronouns: he/him<br>⚡ Fun fact: I enjoy creating things that challenge me and help me grow
 
 
 # 💻 Tech Stack:
