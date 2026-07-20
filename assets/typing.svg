@@ -4,35 +4,30 @@
       <stop offset="0%" stop-color="#7F52FF"/>
       <stop offset="100%" stop-color="#3670A0"/>
     </linearGradient>
-    <style>
-      .fade { animation: f 12s infinite; }
-      .f1 { animation-delay: 0s; }
-      .f2 { animation-delay: 4s; }
-      .f3 { animation-delay: 8s; }
-      @keyframes f {
-        0%, 4% { opacity: 0; }
-        8%, 29% { opacity: 1; }
-        33%, 100% { opacity: 0; }
-      }
-      .blink { animation: b 0.8s infinite; }
-      @keyframes b {
-        50% { opacity: 0; }
-      }
-    </style>
   </defs>
 
   <g font-family="'Fira Code','Courier New',monospace" font-size="22" text-anchor="middle" fill="url(#g)">
-    <text x="300" y="36" class="fade f1">
-      <tspan fill="#7F52FF">&gt; </tspan>Game Developer
-      <tspan class="blink" fill="#c9d1d9">▌</tspan>
+
+    <text x="300" y="36">
+      <tspan fill="#7F52FF">&gt; </tspan>Game Developer<tspan fill="#c9d1d9">▌
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.08;0.29;0.33;1" dur="12s" begin="0s" repeatCount="indefinite"/>
     </text>
-    <text x="300" y="36" class="fade f2">
-      <tspan fill="#7F52FF">&gt; </tspan>App Developer
-      <tspan class="blink" fill="#c9d1d9">▌</tspan>
+
+    <text x="300" y="36">
+      <tspan fill="#7F52FF">&gt; </tspan>App Developer<tspan fill="#c9d1d9">▌
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.08;0.29;0.33;1" dur="12s" begin="4s" repeatCount="indefinite"/>
     </text>
-    <text x="300" y="36" class="fade f3">
-      <tspan fill="#7F52FF">&gt; </tspan>Always Learning
-      <tspan class="blink" fill="#c9d1d9">▌</tspan>
+
+    <text x="300" y="36">
+      <tspan fill="#7F52FF">&gt; </tspan>Always Learning<tspan fill="#c9d1d9">▌
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.08;0.29;0.33;1" dur="12s" begin="8s" repeatCount="indefinite"/>
     </text>
+
   </g>
 </svg>
