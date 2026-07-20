@@ -1,33 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 60" width="600" height="60" role="img" aria-label="animated intro">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="typed lines">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#7F52FF"/>
       <stop offset="100%" stop-color="#3670A0"/>
     </linearGradient>
   </defs>
 
-  <g font-family="'Fira Code','Courier New',monospace" font-size="22" text-anchor="middle" fill="url(#g)">
-
-    <text x="300" y="36">
-      <tspan fill="#7F52FF">&gt; </tspan>Game Developer<tspan fill="#c9d1d9">▌
+  <g font-family="'Fira Code','Courier New',monospace" font-size="20" fill="url(#g)">
+    <text x="30" y="30">
+      <tspan fill="#7F52FF">&gt; </tspan>Game Developer
+    </text>
+    <text x="30" y="60">
+      <tspan fill="#7F52FF">&gt; </tspan>App Developer
+    </text>
+    <text x="30" y="90">
+      <tspan fill="#7F52FF">&gt; </tspan>Always Learning
+      <tspan fill="#c9d1d9">▌
         <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
       </tspan>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.08;0.29;0.33;1" dur="12s" begin="0s" repeatCount="indefinite"/>
     </text>
-
-    <text x="300" y="36">
-      <tspan fill="#7F52FF">&gt; </tspan>App Developer<tspan fill="#c9d1d9">▌
-        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
-      </tspan>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.08;0.29;0.33;1" dur="12s" begin="4s" repeatCount="indefinite"/>
-    </text>
-
-    <text x="300" y="36">
-      <tspan fill="#7F52FF">&gt; </tspan>Always Learning<tspan fill="#c9d1d9">▌
-        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
-      </tspan>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.08;0.29;0.33;1" dur="12s" begin="8s" repeatCount="indefinite"/>
-    </text>
-
   </g>
 </svg>
