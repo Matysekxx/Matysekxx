@@ -5,10 +5,6 @@
 <h1 align="center">Hi, I'm Matěj Chaloupka</h1>
 <h3 align="center">Game &amp; Application Developer</h3>
 
-<p align="center">
-  <img src="assets/typing.svg" alt="animated intro"/>
-</p>
-
 ---
 
 ## 💫 About Me
